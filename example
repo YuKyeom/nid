@@ -1,9 +1,70 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 // AlGOSPOT Alchemy
+
+int input_list(int t);
+
 void main()
 {
+  char str;
   int N;
   
-  
+  fgets(str, 3, stdin);
 }
+
+int input_num(int testcase)
+{
+
+  int n;
+	int c;
+
+	
+
+  fgets(str, 3, stdin);
+	str=(char *)malloc(sizeof(char) * 3);
+
+	for(;;)
+
+	{
+
+		sign=1;
+
+		fgets(str, form+2, stdin);
+
+		for(i=0;i<form+1;i++)
+
+		{
+
+			if(str[i]=='\n')
+
+			{
+
+				input_size=i;
+
+				break;
+
+			}
+
+		}
+
+		for(i=0;i<input_size;i++)
+
+		{
+
+			*result=*result+(str[input_size-i-1]-48)*j;
+
+			j=j*10;		
+
+		}
+
+		break;
+
+	}
+
+	free(str);
+
+	return 0;
+
+}//https://desire-with-passion.tistory.com/135 [열정과 함께]
